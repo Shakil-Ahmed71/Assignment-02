@@ -1,0 +1,13 @@
+@media screen and (max-width : 576px) {
+
+    nav {
+        flex-direction: column;
+    } 
+    .header-menu-list {
+        width: 100%;
+        display: flex;
+        margin: 30px auto;
+        justify-content: center;
+    }
+    
+    }
