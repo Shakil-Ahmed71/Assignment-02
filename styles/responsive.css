@@ -82,7 +82,9 @@
         width: 100%;
     }
 /* destination section */
-
+    .place-container{
+        flex-direction: column;
+    }
 
 /* choose section */
     .box-same{
@@ -96,8 +98,23 @@
 
 
 
-/* tours section */
-/* tours section */
+    /* tours section */
+    .place-container{
+        flex-direction: column;
+        margin-top: 60px;
+    }
+    .place-title .primary-btn{
+        width: 160px;
+    }
+    .place-container .place-title{
+        width: 100%;
+    }
+
+    .place-container .place-video{
+        width: 100%;
+        margin-top: 20px;
+    }
+    /* tours section */
 
 
 
