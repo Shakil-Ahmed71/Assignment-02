@@ -61,7 +61,7 @@
     }
     /* tours section */
 
-/* tours section */
+/* destination section */
     .box-line-1, .box-line-2, .box-line-3{
         flex-direction: column;
         width: 100%;
@@ -81,37 +81,40 @@
     #bandar{
         width: 100%;
     }
+/* destination section */
+
+
+/* choose section */
+    .box-same{
+        flex-direction: column;
+    }
+/* choose section */
+
+
+/* tours section */
+/* tours section */
+
+
+
+/* tours section */
+/* tours section */
+
+
+
+
+/* tours section */
+/* tours section */
+
+
+
+/* tours section */
+/* tours section */
+
+
+
+/* tours section */
 /* tours section */
 }
-
-/* tours section */
-/* tours section */
-
-
-/* tours section */
-/* tours section */
-
-
-
-/* tours section */
-/* tours section */
-
-
-
-
-/* tours section */
-/* tours section */
-
-
-
-/* tours section */
-/* tours section */
-
-
-
-/* tours section */
-/* tours section */
-
 
 
 
