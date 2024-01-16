@@ -44,6 +44,15 @@ p{
     line-height: 26px;
 }
 
+.primary-btn{
+    padding: 15px 40px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    font-size: 1rem;
+}
+
 /* utility section */
 
 
@@ -75,8 +84,13 @@ nav{
 .header-logo img{
     width: 80px;
 }
-.header-logo .strong{
+
+.header-logo .blue-title{
+    color: rgb(53, 53, 224);
+}
+.header-logo .red-title{
     color: #FF5400;
+    object-fit: cover;
 }
 
 .header-menu-list{
@@ -93,17 +107,100 @@ nav{
     color: red;
 }
 
+.header-explore{
+    position: relative;
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    margin-top: 40px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    object-fit: cover;
+    
+    
+}
 
+.header-explore-container{
+    position: relative;
+    text-align: center;
+    padding: 110px 100px;
+    
+}
 
+.header-explore-container .header-explore-title{
+    margin-bottom: 30px;
+}
+.header-explore-container .header-explore-disc{
+    text-align: center;
+    color: #FFF;
+    opacity: 50%;
+    margin-bottom: 30px;
+
+}
+
+.form-container{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0px auto;
+    padding: 10px 10px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+
+}
+
+.form-container .header-input {
+    width: 10rem;
+    height: 3.2rem;
+    padding: 0px 20px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    text-align: center;
+    
+}
 
 /* header section */
 
 
+/* tours section */
+.tours-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.tours-container .tours-title{
+    width: 45%;
+
+}
+.tours-title h2{
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+.tours-title p{
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+.tours-title ul li{
+    text-align: left;
+    margin: 0px 0px 22px 20px;
+    color: rgba(19, 19, 24, 0.70);
 
 
+}
 
-/* header section */
-/* header section */
+.tours-container .tours-img img{
+    width: 100%;
+    object-fit: cover;
+}
+/* tours section */
 
 
 
