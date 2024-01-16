@@ -1,7 +1,7 @@
 @media screen and (max-width : 576px) {
 
     bodY{
-        margin: 20px;
+        margin: 20px 30px;
     }
     
     /* header section */
@@ -66,6 +66,14 @@
         flex-direction: column;
         width: 100%;
     }
+    .destination-title{
+        width: 100%;
+
+    }
+    .choose-title{
+        width: 100%;
+    }
+    
     #srilanka{
         width: 100%;
     }
@@ -134,22 +142,24 @@
     .newsletter-disc{
         width: 240px;
         right: -5px;
-        top: 175px;
+        top: 160px;
     }
-/* newsletter section */
+    /* newsletter section */
 
 
 
-/* tours section */
-/* tours section */
+    /* footer section */
 
+    .footer-title{
+        width: 80%;
+    }
+    .last-disc{
+        /* display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0px auto; */
+        padding: 20px;
 
-
-/* tours section */
-/* tours section */
+    }
+    /* footer section */
 }
-
-
-
-/* tours section */
-/* tours section */

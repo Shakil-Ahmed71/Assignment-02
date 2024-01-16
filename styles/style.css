@@ -67,7 +67,7 @@ p{
 
 /* header section */
 
-body{
+.body-margin{
     max-width: 1150px;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
@@ -116,15 +116,11 @@ nav{
 .header-explore{
     position: relative;
     width: 100%;
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: center; */
     margin-top: 40px;
     border-radius: 16px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     background-size: cover;
     object-fit: cover;
-    
     
 }
 
@@ -147,11 +143,10 @@ nav{
 }
 
 .form-container{
-    width: 75%;
+    width: 73%;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
     margin: 0px auto;
     padding: 10px 10px;
     border-radius: 8px;
@@ -167,6 +162,7 @@ nav{
     border: none;
     font-size: 1rem;
     text-align: center;
+    background-color: #FFF;
     
 }
 
@@ -479,10 +475,71 @@ input{
 
 }
 
-
 /* newsletter section */
 
 
 
-/* header section */
-/* header section */
+/* footer section */
+footer{
+    position: relative;
+    width: 100%;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 70px;
+}
+
+.footer-container{
+    width: 100%;
+
+}
+
+.footer-title{
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 70px;
+}
+.footer-logo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    
+}
+
+.footer-logo img{
+    width: 60px;
+}
+.footer-logo h2{
+    font-size: 1.5rem;
+}
+.footer-logo .blue-title{
+    color: rgb(53, 53, 224);
+}
+.footer-logo .red-title{
+    color: #FF5400;
+    object-fit: cover;
+}
+.footer-icon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+    margin: 40px auto;
+}
+.last-hr{
+    width: 70%;
+    margin: 0px auto;
+    opacity: 45%;
+}
+.last-disc{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0px auto;
+    padding: 70px;
+
+}
+
+/* footer section */
