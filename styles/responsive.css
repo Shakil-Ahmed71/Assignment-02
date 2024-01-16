@@ -60,12 +60,29 @@
         margin-top: 20px;
     }
     /* tours section */
+
+/* tours section */
+    .box-line-1, .box-line-2, .box-line-3{
+        flex-direction: column;
+        width: 100%;
+    }
+    #srilanka{
+        width: 100%;
+    }
+    #america{
+        width: 100%;
+    }
+    #kasmir{
+        width: 100%;
+    }
+    #bng{
+        width: 100%;
+    }
+    #bandar{
+        width: 100%;
+    }
+/* tours section */
 }
-
-
-/* tours section */
-/* tours section */
-
 
 /* tours section */
 /* tours section */
