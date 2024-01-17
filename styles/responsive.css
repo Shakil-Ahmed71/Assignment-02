@@ -22,22 +22,7 @@
     .header-explore-container{
         padding: 20px;
     }
-    /* .form-container .header-input, .primary-btn{
-
-        display: block;
-        width: 100%;
-        height: 50px;
-        text-align: center;
-    } */
-    /* .header-input{
-        width: auto;
-    } */
-
-    /* .form-container{
-        display: block;
-        width: 100%;
-        height: 100%;
-    } */
+    
     .header-input-cont{
         width: 82%;
         height: 90px;
@@ -45,7 +30,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid red;
         gap: 20px;
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.30);
